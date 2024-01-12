@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./style/main.css">
 </head>
 <body>
+<main>
+    <form class="calculator" id="calculator">
+        <label for="loanamount">Loan amount:</label>
+        <input type="number" id="loanAmount" placeholder="e.g 100 000">
     
+        <label for="interestrate">Interest rate:</label>
+        <input type="number" id="interestRate" placeholder="e.g 4%">
+    
+        <label for="payback">Payback time (year):</label>
+        <input type="number" id="payback" placeholder="e.g 25">
+    
+        <button id="submitBtn">Submit</button>
+     
+      <div class="result-container" id="resultContainer">
+      </div> </form>
 
-    <script src="./main.js"></script>
+
+</main>
+
+    <script src="./typescript/index.js"></script>
 </body>
 </html>

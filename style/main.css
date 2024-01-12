@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.calculator {
+    background-color: blanchedalmond;
+    padding: 0.5rem;
+    height: fit-content;
+    width: 50vw;
+}
+
+.result-div {
+    border: solid 1px black;
+    width: 30%;
+    margin-top: 0.5rem;
+}
+
+.limit-reached {
+    font-size: larger;
+    font-weight: 300;
+    background-color: rgb(198, 169, 125);
+    width: 60%;
+}
