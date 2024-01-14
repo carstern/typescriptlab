@@ -1,6 +1,6 @@
 ﻿# Typo labb - Advanced frontend and typescript
 > Created by Caroline Edgren :smile:  
-> Mitt [repo](https://github.com/carstern/webbutveckling)  
+> My [repo](https://github.com/carstern/webbutveckling)  
 
 ---
 ### Mortgage calculator
